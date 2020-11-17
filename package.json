@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc --outFile bin/index.js src/index.ts",
+    "idx": "npm run build && node bin/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
